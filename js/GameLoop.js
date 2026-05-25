@@ -89,14 +89,14 @@ function animate()
 
     player.move();
 
-    if (player.x < canvas.width/2 -500)
+    if (player.x < canvas.width/2 -360)
         {
-            player.x = canvas.width/2 - 500
+            player.x = canvas.width/2 - 360
             if (player.vx < 0) player.vx = 0;
         }
-    if (player.x > canvas.width/2 + 500)
+    if (player.x > canvas.width/2 + 360)
         {
-            player.x = canvas.width/2 + 500
+            player.x = canvas.width/2 + 360
             if (player.vx > 0) player.vx = 0;
         }
 
